@@ -108144,9 +108144,10 @@ A.aVt.prototype={
 $2(a,b){var s,r=null,q=this.a,p=q.aw(0,$.cX(),t.c),o=q.aw(0,$.cf(),t.h),n=b.c
 if(n.length===0||n==="/"){s=b.b.gjP()
 if(B.c.bK(s,"/"))n=B.b.gY(s.split("?"))}if(!p.a||!o.a){if(n==="/splash"||n==="/gate"||B.Iw.p(0,n))return r
-return"/splash"}q=p.b
-if(q==null){if(!o.b)return n==="/onboarding"?r:"/onboarding"
-return B.Iw.p(0,n)?r:"/login"}if(!q.c)return n==="/verify"?r:"/verify"
+return"/splash"}if(!o.b)return n==="/onboarding"?r:"/onboarding"
+q=p.b
+if(q==null)return B.Iw.p(0,n)?r:"/login"
+if(!q.c)return n==="/verify"?r:"/verify"
 if(p.f)return n==="/lock"?r:"/lock"
 if(n==="/admin"){q=q.f
 q=q.toLowerCase()==="owner"||q.toLowerCase()==="partner"
