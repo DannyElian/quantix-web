@@ -110223,7 +110223,7 @@ r.push(A.hM(p.w,A.p(A.q(a),"Usuario"),B.eR,o,!1,o,o,o))
 r.push(B.W)
 r.push(A.hM(p.x,A.p(A.q(a),"Correo"),B.UG,o,!1,o,o,o))
 r.push(B.W)
-r.push(A.hM(p.y,A.p(A.q(a),"Contrase\xf1a temporal"),B.rM,o,!0,o,o,o))
+r.push(A.hM(p.y,A.p(A.q(a),"Contrase\xf1a"),B.rM,o,!0,o,o,o))
 if((i?o:j.f.toLowerCase()==="owner")===!0){j=p.at
 j=j==="owner"||j==="partner"?j:"user"
 i=t.N
